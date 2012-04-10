@@ -1,0 +1,18 @@
+Twisted Python OpenTSDB Client
+==============================
+
+A simple client for sending metrics to an OpenTSDB
+instance. OpenTSDB is a time series database that
+never downsamples metrics and provides and
+extremely fast metrics graphing engine. More
+information is available at opentsdb.net
+
+Usage
+=====
+
+See example.py for an example usage. The module,
+totsdb.py, exposes SendMetric(), which takes
+a hostname:port string for the OpenTSDB instance
+and a list of metric dictionaries.
+
+Tested with Twisted Python 11.0.
