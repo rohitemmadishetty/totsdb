@@ -1,0 +1,1 @@
+A python module that simplifies writing metrics to OpenTSDB (opentsdb.net).
